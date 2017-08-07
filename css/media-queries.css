@@ -8,11 +8,13 @@
     background-color: grey;
     border: 1px solid;
     width:100%;
-    margin:5px;
+    margin-bottom:5px;
     text-align:center;
     list-style:none;
 }
 .header-img>img{
     width:100%;
-
+}
+.nav-links>li>a {
+    float: left;
 }
