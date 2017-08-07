@@ -36,10 +36,11 @@ h1{
     h1{
         text-align:left;
         float:left;
+        margin:15px 0px 15px 0px;
     }
     .nav-links{
         float:right;
-        /*vertical-align: middle;*/
+        margin:26px 0px 16px 0px;
 text-align: right;
     }
     .nav-links>li{
