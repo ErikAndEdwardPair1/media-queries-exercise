@@ -28,6 +28,28 @@ h1{
     .hidden-on-mobile{
         display:none;
     }
-
+    h1{
+        text-align:left;
+        float:left;
+    }
+    .nav-links{
+        float:right;
+    }
+    .nav-links>li{
+        display:inline;
+        background-color:transparent;
+        border:none;
+    }
+    .main{
+        float:left;
+        width:55%;
+    }
+    .sub-section{
+        float:left;
+        width:35%;
+    }
+    footer{
+        clear:both;
+    }
 
 }
