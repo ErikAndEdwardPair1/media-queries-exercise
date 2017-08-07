@@ -4,6 +4,9 @@
     width: 100%;
     text-align:center;
 }
+.nav-links{
+    padding-left:0px;
+}
 .nav-links>li{
     background-color: grey;
     border: 1px solid;
@@ -15,6 +18,16 @@
 .header-img>img{
     width:100%;
 }
-.nav-links>li>a {
-    float: left;
+
+h1{
+    text-align:center;
+}
+/*.Media module to make desktop
+ */
+@media screen and (min-width:960px) and max-width:1200px){
+    .hidden-on-mobile{
+        display:none;
+    }
+
+
 }
