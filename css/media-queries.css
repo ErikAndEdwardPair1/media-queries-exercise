@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: 'Roboto', sans-serif;
+}
 .alert-info {
     background-color: cyan;
     border: solid 1px;
@@ -17,6 +21,7 @@
 }
 .header-img>img{
     width:100%;
+    margin:0%;
 }
 
 h1{
@@ -34,6 +39,8 @@ h1{
     }
     .nav-links{
         float:right;
+        /*vertical-align: middle;*/
+text-align: right;
     }
     .nav-links>li{
         display:inline;
